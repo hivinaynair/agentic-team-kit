@@ -47,7 +47,7 @@ recordings show the rules still hold on every later push.
 | `e2e/playwright.config.ts` | Journey tests that record video and a trace of every run. |
 | `.github/workflows/journeys.yml` | Runs the journey tests on every PR and comments the results. |
 | `scripts/journey-report.mjs` | Builds that comment from Playwright's results. |
-| `scripts/install-skills.sh` | Installs the five skills into `.agents/skills` and links them for each tool. |
+| `scripts/install-skills.sh` | Installs the five skills into `.agents/skills`. |
 
 Claude Code (2.1.277 or later), Cursor and Codex read `AGENTS.md` directly; check
 that your versions do. Claude Code reads it only when there is no `CLAUDE.md`, so
